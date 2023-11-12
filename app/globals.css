@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Kristi&family=La+Belle+Aurore&family=Zen+Dots&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   background-color: white;
+}
+
+
+.main-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.internal-section {
+  scroll-snap-align: start;
 }

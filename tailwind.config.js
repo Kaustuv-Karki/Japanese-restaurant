@@ -12,14 +12,11 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      scrollSnapType: {
-        mandatory: "mandatory",
-        proximity: "proximity",
-      },
-      scrollSnapAlign: {
-        start: "start",
-        end: "end",
-        center: "center",
+      fontFamily: {
+        kristi: ["Kristi", "sans-serif"], // Use the font name you imported
+        labelle: ["La Belle Aurore", "cursive"],
+        zen: ["Zen Dots", "sans-serif"],
+        grechen: ["Grechen Fuemen"],
       },
     },
   },
