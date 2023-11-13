@@ -2,7 +2,9 @@
 import { useRef } from "react";
 import Image from "next/image";
 import MainImage from "../assets/pexels-janko-ferlic-590478.jpg";
-
+import Sakura from "@/assets/sakura.jpg";
+import Information from "./(components)/Information";
+import Information2 from "./(components)/Information2";
 export default function Home() {
   const container = useRef(null);
   return (
@@ -41,13 +43,48 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" h-[100vh]">
-          <Image
-            className="top-[0] left-0 h-full w-full object-cover"
-            src={MainImage}
-            alt="main-image"
-          />
-          {/* <h1 className="text-black">This is the content</h1> */}
+        <div className=" h-[150vh] overflow-hidden">
+          <div className="about-us h-[40%] flex justify-center my-10">
+            <div className="w-[30%]">
+              <h1 className=" font-grechen text-[4rem] ml-[10rem]">About Us</h1>
+            </div>
+            <div className="flex flex-col w-[70%] px-8">
+              <h2 className="font-grechen text-[2.5rem] ">
+                Welcome to Elysian Orchid Dining, where authentic Japanese
+                cuisine meets a contemporary dining experience.Our restaurant
+                offers a culinary journey through the vibrant flavors and rich
+                traditions of Japan. Each dish is a tribute to the artistry and
+                precision of Japanese culinary culture.
+              </h2>
+              <div className="sub-cotent flex gap-x-8 mt-4">
+                <p className="text-gray-700 w-1/2 font-montserrat">
+                  Our menu is a fusion of time-honored recipes and innovative
+                  culinary techniques, ensuring an exquisite dining adventure
+                  for both connoisseurs and newcomers to Japanese cuisine.
+                  Whether you're craving the delicate harmony of sashimi, the
+                  umami depth of ramen, or the enticing aromas of our bento
+                  boxes, each dish is prepared with the finest, freshest
+                  ingredients, sourced locally and imported directly from Japan.
+                </p>
+                <p className="text-gray-700 w-1/2 font-montserrat">
+                  Immerse yourself in the elegant ambiance of our dining space,
+                  designed to reflect the serene beauty of Japan. Our dedicated
+                  team, passionate about both the cuisine and hospitality, is
+                  committed to providing an unforgettable experience, where
+                  every visit to Elysian Orchid Dining is a celebration of
+                  Japanese flavors and culture.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="image w-full h-full object-cover">
+            <Image src={Sakura} alt="sakura" />
+          </div>
+        </div>
+        {/* {console.log(data)} */}
+        <div>
+          <Information />;
+          <Information2 />
         </div>
       </div>
     </div>

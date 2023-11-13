@@ -17,6 +17,7 @@ module.exports = {
         labelle: ["La Belle Aurore", "cursive"],
         zen: ["Zen Dots", "sans-serif"],
         grechen: ["Grechen Fuemen"],
+        montserrat: ["Montserrat"],
       },
     },
   },
