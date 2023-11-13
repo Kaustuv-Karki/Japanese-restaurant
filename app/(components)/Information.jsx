@@ -26,7 +26,7 @@ const Information = () => {
           heights. Dive into the delectable simplicity of this iconic Japanese
           favorite.
         </p>
-        <div className="border border-black px-12 py-2 cursor-pointer">
+        <div className="border border-[#025A4E] px-12 py-2 cursor-pointer">
           Details
         </div>
       </div>

@@ -5,6 +5,7 @@ import MainImage from "../assets/pexels-janko-ferlic-590478.jpg";
 import Sakura from "@/assets/sakura.jpg";
 import Information from "./(components)/Information";
 import Information2 from "./(components)/Information2";
+import Popular from "./(components)/Popular";
 export default function Home() {
   const container = useRef(null);
   return (
@@ -85,8 +86,11 @@ export default function Home() {
         </div>
         {/* {console.log(data)} */}
         <div>
-          <Information />;
-          <Information2 />1
+          <Information />
+          <Information2 />
+        </div>
+        <div className="h-[100vh]">
+          <Popular />
         </div>
       </div>
     </div>

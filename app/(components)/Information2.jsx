@@ -23,7 +23,7 @@ const Information2 = () => {
           embodies tradition with a touch of innovation, promising a culinary
           journey that delights the senses.
         </p>
-        <div className="border border-black px-12 py-2 cursor-pointer">
+        <div className="border border-[#025A4E] px-12 py-2 cursor-pointer">
           Details
         </div>
       </div>
