@@ -43,12 +43,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" h-[150vh] overflow-hidden">
+        <div className=" h-[150vh] overflow-hidden bg-[#EDE7DE] text-[#025A4E]">
           <div className="about-us h-[40%] flex justify-center my-10">
             <div className="w-[30%]">
-              <h1 className=" font-grechen text-[4rem] ml-[10rem]">About Us</h1>
+              <h1 className=" font-grechen text-[4rem] ml-[10rem] ">
+                About Us
+              </h1>
             </div>
-            <div className="flex flex-col w-[70%] px-8">
+            <div className="flex flex-col w-[70%] px-8 text-[#025A4E]">
               <h2 className="font-grechen text-[2.5rem] ">
                 Welcome to Elysian Orchid Dining, where authentic Japanese
                 cuisine meets a contemporary dining experience.Our restaurant
@@ -57,7 +59,7 @@ export default function Home() {
                 precision of Japanese culinary culture.
               </h2>
               <div className="sub-cotent flex gap-x-8 mt-4">
-                <p className="text-gray-700 w-1/2 font-montserrat">
+                <p className=" w-1/2 font-montserrat">
                   Our menu is a fusion of time-honored recipes and innovative
                   culinary techniques, ensuring an exquisite dining adventure
                   for both connoisseurs and newcomers to Japanese cuisine.
@@ -66,7 +68,7 @@ export default function Home() {
                   boxes, each dish is prepared with the finest, freshest
                   ingredients, sourced locally and imported directly from Japan.
                 </p>
-                <p className="text-gray-700 w-1/2 font-montserrat">
+                <p className=" w-1/2 font-montserrat">
                   Immerse yourself in the elegant ambiance of our dining space,
                   designed to reflect the serene beauty of Japan. Our dedicated
                   team, passionate about both the cuisine and hospitality, is
@@ -84,7 +86,7 @@ export default function Home() {
         {/* {console.log(data)} */}
         <div>
           <Information />;
-          <Information2 />
+          <Information2 />1
         </div>
       </div>
     </div>

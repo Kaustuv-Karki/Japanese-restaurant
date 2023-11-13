@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Information2 = () => {
   return (
-    <div className="flex h-[100vh] justify-between px-[8rem] py-[4rem] ">
+    <div className="flex h-[100vh] justify-between px-[8rem] py-[4rem] text-[#025A4E] bg-[#EDE7DE]">
       <div className="information w-[50rem] mt-[5rem] -ml-[2rem] flex items-center flex-col">
         <h1 className="font-grechen text-[4rem] text-center">
           Gyoza Sensation

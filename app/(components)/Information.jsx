@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Information = () => {
   return (
-    <div className="flex h-[100vh] justify-between px-[8rem] py-[4rem] ">
+    <div className="flex h-[100vh] justify-between px-[8rem] py-[4rem] text-[#025A4E]">
       <div className="image object-cover h-[700px] w-[500px] rounded-full overflow-hidden ">
         <Image src={Image1} alt="image1" />
       </div>
