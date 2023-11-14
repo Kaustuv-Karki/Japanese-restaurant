@@ -3,9 +3,11 @@ import { useRef } from "react";
 import Image from "next/image";
 import MainImage from "../assets/pexels-janko-ferlic-590478.jpg";
 import Sakura from "@/assets/sakura.jpg";
+import Image2 from "@/assets/pexels-ryutaro-tsukata-5745757.jpg";
 import Information from "./(components)/Information";
 import Information2 from "./(components)/Information2";
 import Popular from "./(components)/Popular";
+import Footer from "./(components)/Footer";
 export default function Home() {
   const container = useRef(null);
   return (
@@ -89,8 +91,30 @@ export default function Home() {
           <Information />
           <Information2 />
         </div>
-        <div className="h-[100vh]">
+        <div className="h-[100vh] mb-[10vh]">
           <Popular />
+        </div>
+        <div className="h-[90vh] relative">
+          <Image
+            src={Image2}
+            alt="image"
+            className="absolute w-full h-full object-cover"
+          />
+          <div className="absolute h-full w-full bg-black/30"></div>
+          <div className="absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] flex flex-col items-center justify-center">
+            <h1 className="text-white font-grechen text-[4rem] text-center">
+              Ready To Experience Culinary Journey?
+            </h1>
+            <p className="text-white font-montserrat">
+              Book A Experience Now and let us take you into a journey.
+            </p>
+            <div className="border border-white px-12 py-2 mt-10 text-white font-grechen text-[2rem]">
+              Book Now
+            </div>
+          </div>
+          <div className="">
+            <Footer />
+          </div>
         </div>
       </div>
     </div>

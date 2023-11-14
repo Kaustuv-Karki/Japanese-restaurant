@@ -8,11 +8,15 @@ import Image from "next/image";
 const Popular = () => {
   return (
     <div>
-      <div className="text">
-        <h1>Popular Dishes</h1>
-        <p>these are the popular dishes</p>
+      <div className="text flex flex-col items-center justify-center">
+        <h1 className="font-grechen text-[5rem] text-[#025A4E]">
+          Popular Dishes
+        </h1>
+        <p className="font-montserrat pt-2 pb-8 text-[#025A4E]">
+          Savor the Favorites
+        </p>
       </div>
-      <div className="images grid grid-rows-3 grid-cols-8  h-[600px] gap-x-4">
+      <div className="images grid grid-rows-3 grid-cols-8  h-[600px] gap-x-4 px-2">
         <Image
           src={Image1}
           alt="image1"
