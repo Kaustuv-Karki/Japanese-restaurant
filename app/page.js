@@ -113,7 +113,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="h-[80vh]">
+        <div className="h-[80vh] overflow-hidden">
           <Footer />
         </div>
       </div>
