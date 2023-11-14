@@ -112,9 +112,9 @@ export default function Home() {
               Book Now
             </div>
           </div>
-          <div className="">
-            <Footer />
-          </div>
+        </div>
+        <div className="h-[80vh]">
+          <Footer />
         </div>
       </div>
     </div>
