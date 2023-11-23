@@ -95,7 +95,7 @@ export default function Home() {
           <Information />
           <Information2 />
         </div>
-        <div className="h-[100vh] mb-[10vh]">
+        <div className="min-h-[100vh] h-fit lg:mb-[3rem] sm:mb-[2rem] mb-2">
           <Popular />
         </div>
         <div className="h-[90vh] relative">
@@ -105,14 +105,14 @@ export default function Home() {
             className="absolute w-full h-full object-cover"
           />
           <div className="absolute h-full w-full bg-black/30"></div>
-          <div className="absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] flex flex-col items-center justify-center">
-            <h1 className="text-white font-grechen text-[4rem] text-center">
+          <div className="absolute left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] flex flex-col items-center justify-center w-[80%] max-w-[60rem]">
+            <h1 className="text-white font-grechen md:text-[4rem] sm:text-[3rem] text-[2.5rem] text-center">
               Ready To Experience Culinary Journey?
             </h1>
-            <p className="text-white font-montserrat">
+            <p className="text-white font-poppins text-center md:text-base text-[0.8rem]">
               Book A Experience Now and let us take you into a journey.
             </p>
-            <div className="border border-white px-12 py-2 mt-10 text-white font-grechen text-[2rem]">
+            <div className="border border-white px-12 py-2 mt-10 text-white font-grechen lg:text-[2rem] sm:text-[1.5rem] text-[1rem]">
               Book Now
             </div>
           </div>

@@ -10,33 +10,33 @@ const Popular = () => {
   return (
     <div>
       <div className="text flex flex-col items-center justify-center">
-        <h1 className="font-grechen text-[5rem] text-[#025A4E]">
+        <h1 className="font-grechen lg:text-[5rem] md:text-[3rem] text-[2.4rem] text-[#025A4E]">
           Popular Dishes
         </h1>
-        <p className="font-poppins pt-2 pb-8 text-[#025A4E]">
+        <p className="font-poppins pt-2 pb-8 text-[#025A4E] md:text-base text-[0.7rem]">
           Savor the Favorites
         </p>
       </div>
-      <div className="images grid grid-rows-3 grid-cols-8  h-[600px] gap-x-4 px-2">
+      <div className="images grid grid-rows-4 grid-cols-7  md:h-[600px] h-[400px] gap-x-4 w-[90vw] md:gap-y-8 gap-y-4 mx-auto">
         <Image
           src={Image1}
           alt="image1"
-          className="row-start-1 row-span-3 col-span-2 h-full w-full object-cover"
+          className="row-start-1 row-span-4 col-start-1 col-span-2 h-full w-full object-cover rounded-lg"
         />
         <Image
           src={Image2}
           alt="image1"
-          className="row-start-1 row-span-2 col-span-3 w-full h-full object-cover"
+          className="row-start-1 row-span-2 col-span-3 w-full h-full object-cover rounded-lg"
         />
         <Image
           src={Image4}
           alt="image1"
-          className="row-start-1 row-span-3 col-span-2 h-full w-full object-cover"
+          className="row-start-1 row-span-4 col-start-6 col-span-2 h-full w-full object-cover rounded-lg"
         />
         <Image
           src={Image3}
           alt="image1"
-          className="row-start-1 row-span-2 col-span-3 w-full h-full object-cover"
+          className="row-start-3 row-span-2 col-span-3 w-full h-full object-cover rounded-lg"
         />
       </div>
     </div>
