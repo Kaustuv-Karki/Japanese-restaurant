@@ -12,7 +12,7 @@ export default function Home() {
   const container = useRef(null);
   return (
     <div className="relative">
-      <div className="navbar flex justify-between p-5 fixed top-0 z-10 text-white w-full">
+      {/* <div className="navbar flex justify-between p-5 fixed top-0 z-10 text-white w-full">
         <div className="logo">LOGO</div>
         <div className="selections flex gap-x-8 mr-8">
           <h2>Home</h2>
@@ -20,7 +20,7 @@ export default function Home() {
           <h2>Delicaies</h2>
           <h2>Contact</h2>
         </div>
-      </div>
+      </div> */}
       <div className="">
         <div className="h-[100vh] relative snap-center">
           <Image
