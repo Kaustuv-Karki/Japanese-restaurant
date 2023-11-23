@@ -11,7 +11,7 @@ const Information2 = () => {
         <h1 className="font-grechen text-[4rem] text-center">
           Gyoza Sensation
         </h1>
-        <p className="font-montserrat text-center w-2/3 mt-6 mb-10">
+        <p className="font-poppins text-center w-2/3 mt-6 mb-10">
           Savor the exquisite taste of our Gyoza, perfectly pan-seared Japanese
           dumplings. Each delicate parcel is meticulously handcrafted, encasing
           a tantalizing blend of finely minced pork, vegetables, and aromatic

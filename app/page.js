@@ -29,32 +29,32 @@ export default function Home() {
             alt="main-image"
           />
           <div className="absolute bg-black/40 w-full h-full"></div>
-          <div className=" flex flex-col items-center absolute justify-center top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] gap-y-8">
-            <h1 className="font-grechen text-white  text-[5.1rem]">
+          <div className=" flex flex-col items-center absolute justify-center top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] gap-y-8 w-[90vw]">
+            <h1 className="font-grechen text-white  lg:text-[5.1rem] md:text-[4rem] text-[3rem] text-center">
               Elysian Orchid Dining
             </h1>
-            <h1 className="  text-white text-[2rem] font-zen   w-[40rem] text-center">
+            <h1 className="  text-white lg:text-[2rem] sm:text-[1.5rem] text-[1rem] font-zen  w-full text-center">
               Savor the exquisite tastes of Japan, where each dish is a
               masterpiece of flavor and tradition.
             </h1>
-            <p className="text-white font-labelle text-[1.5rem]">
+            <p className="text-white font-labelle md:text-[1.5rem] text-[0.9rem] text-center">
               Embark on an exquisite culinary journey. Reserve your experience
               now.
             </p>
-            <div className="mt-4 border-4 px-6 py-2 cursor-pointer text-[1.2rem] text-white font-zen hover:bg-black transition-all hover:scale-110">
+            <div className="mt-4 border-4 px-6 py-2 cursor-pointer md:text-[1.2rem] text-[0.9rem] text-white font-zen hover:bg-black transition-all hover:scale-110">
               Book Now
             </div>
           </div>
         </div>
-        <div className=" h-[150vh] overflow-hidden bg-[#EDE7DE] text-[#025A4E]">
-          <div className="about-us h-[40%] flex justify-center my-10">
-            <div className="w-[30%]">
-              <h1 className=" font-grechen text-[4rem] ml-[10rem] ">
+        <div className=" h-fit overflow-hidden bg-[#EDE7DE] text-[#025A4E] w-screen">
+          <div className="about-us h-fit flex md:flex-row  flex-col justify-center my-10 mx-auto w-full">
+            <div className="md:w-[30%] w-screen text-center">
+              <h1 className=" font-grechen lg:text-[4rem] sm:text-[2.8rem] text-[2.5rem] lg:ml-[8rem] sm:ml-[0] ">
                 About Us
               </h1>
             </div>
-            <div className="flex flex-col w-[70%] px-8 text-[#025A4E]">
-              <h2 className="font-grechen text-[2.5rem] ">
+            <div className="flex flex-col md:w-[70%] w-full px-8 text-[#025A4E]">
+              <h2 className="font-grechen lg:text-[2.5rem] sm:text-[1.8rem] text-[1.5rem] md:text-left text-center">
                 Welcome to Elysian Orchid Dining, where authentic Japanese
                 cuisine meets a contemporary dining experience.Our restaurant
                 offers a culinary journey through the vibrant flavors and rich
@@ -62,7 +62,7 @@ export default function Home() {
                 precision of Japanese culinary culture.
               </h2>
               <div className="sub-cotent flex gap-x-8 mt-4">
-                <p className=" w-1/2 font-montserrat">
+                <p className=" w-1/2 font-poppins lg:text-[0.9rem] sm:text-[0.8rem] text-[0.7rem]">
                   Our menu is a fusion of time-honored recipes and innovative
                   culinary techniques, ensuring an exquisite dining adventure
                   for both connoisseurs and newcomers to Japanese cuisine.
@@ -71,7 +71,7 @@ export default function Home() {
                   boxes, each dish is prepared with the finest, freshest
                   ingredients, sourced locally and imported directly from Japan.
                 </p>
-                <p className=" w-1/2 font-montserrat">
+                <p className=" w-1/2 font-poppins  lg:text-[0.9rem] sm:text-[0.8rem] text-[0.7rem]">
                   Immerse yourself in the elegant ambiance of our dining space,
                   designed to reflect the serene beauty of Japan. Our dedicated
                   team, passionate about both the cuisine and hospitality, is
@@ -82,8 +82,12 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="image w-full h-full object-cover">
-            <Image src={Sakura} alt="sakura" />
+          <div className="image w-full h-[50vh] ">
+            <Image
+              src={Sakura}
+              alt="sakura"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
         {/* {console.log(data)} */}

@@ -18,6 +18,7 @@ module.exports = {
         zen: ["Zen Dots", "sans-serif"],
         grechen: ["Grechen Fuemen"],
         montserrat: ["Montserrat"],
+        poppins: ["Poppins"],
       },
     },
   },

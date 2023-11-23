@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image1 from "@/assets/pexels-cottonbro-studio-3297802.jpg";
 import Image2 from "@/assets/pexels-pixabay-271715.jpg";
@@ -12,7 +13,7 @@ const Popular = () => {
         <h1 className="font-grechen text-[5rem] text-[#025A4E]">
           Popular Dishes
         </h1>
-        <p className="font-montserrat pt-2 pb-8 text-[#025A4E]">
+        <p className="font-poppins pt-2 pb-8 text-[#025A4E]">
           Savor the Favorites
         </p>
       </div>
