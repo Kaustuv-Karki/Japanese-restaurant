@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" h-fit overflow-hidden bg-[#EDE7DE] text-[#025A4E] w-screen">
+        <div className="h-fit overflow-hidden bg-[#EDE7DE] text-[#025A4E] w-full">
           <div className="about-us h-fit flex md:flex-row  flex-col justify-center my-10 mx-auto w-full">
             <div className="md:w-[30%] w-screen text-center">
               <h1 className=" font-grechen lg:text-[4rem] sm:text-[2.8rem] text-[2.5rem] lg:ml-[8rem] sm:ml-[0] ">
@@ -82,7 +82,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="image w-full h-[50vh] ">
+          <div className="image w-screen h-[50vh] ">
             <Image
               src={Sakura}
               alt="sakura"
@@ -95,7 +95,7 @@ export default function Home() {
           <Information />
           <Information2 />
         </div>
-        <div className="min-h-[100vh] h-fit lg:mb-[3rem] sm:mb-[2rem] mb-2">
+        <div className="md:min-h-[80vh] h-fit lg:mb-[3rem] sm:mb-[2rem] mb-4 mt-8">
           <Popular />
         </div>
         <div className="h-[90vh] relative">
@@ -117,7 +117,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="h-[80vh] overflow-hidden">
+        <div className="md:h-[60vh] sm:h-[60vh] h-[60vh] overflow-hidden">
           <Footer />
         </div>
       </div>

@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Popular = () => {
   return (
-    <div>
+    <div className="">
       <div className="text flex flex-col items-center justify-center">
         <h1 className="font-grechen lg:text-[5rem] md:text-[3rem] text-[2.4rem] text-[#025A4E]">
           Popular Dishes
