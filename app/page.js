@@ -66,8 +66,8 @@ export default function Home() {
                   Our menu is a fusion of time-honored recipes and innovative
                   culinary techniques, ensuring an exquisite dining adventure
                   for both connoisseurs and newcomers to Japanese cuisine.
-                  Whether you're craving the delicate harmony of sashimi, the
-                  umami depth of ramen, or the enticing aromas of our bento
+                  Whether you&apos;re craving the delicate harmony of sashimi,
+                  the umami depth of ramen, or the enticing aromas of our bento
                   boxes, each dish is prepared with the finest, freshest
                   ingredients, sourced locally and imported directly from Japan.
                 </p>
